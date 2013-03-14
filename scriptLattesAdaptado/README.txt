@@ -14,30 +14,16 @@ EXECUÇÃO
 
 	(*) EXEMPLO A:
 	$ cd <nome_diretorio_scriptLattes>
-	$ ./scriptLattes.py ./exemplo/teste.config
+	$ ./scriptLattes.py ./exemplo/grupos_sanca.config
 
 	Nesse exemplo consideram-se todas as produções cujos anos de publicações
-	estão entre 2006 e 2012. Rótulos para os membros não foram considerados. 
+	estão entre 2008 e 2012. Rótulos para os membros não foram considerados. 
 	
-	Os IDs Lattes dos 3 membros está listada em:
-	./exemplo/teste.list
+	Os IDs Lattes dos membros está listada em:
+	./exemplo/grupos_sanca.list
 
 	O resultado da execução estará disponível em:
-	./exemplo/teste/
-
-
-	(*) EXEMPLO B:
-	$ cd <nome_diretorio_scriptLattes>
-	$ ./scriptLattes.py ./exemplo/vision-ime-usp.config
-
-	Nesse exemplo consideram-se todas as produções cadastradas nos CVs Lattes.
-	São considerados rótulos para os membros do grupo (professor, colaborador, aluno)
-
-	Os IDs Lattes dos 10 membros está listada em:
-	./exemplo/vision-ime-usp.list
-
-	O resultado da execução estará disponível em:
-	./exemplo/vision-ime-usp/
+	./exemplo/grupos_sanca/
 
 IDEALIZADORES DO PROJETO
 	Jesús P. Mena-Chalco <jesus.mena@ufabc.edu.br>
@@ -46,9 +32,12 @@ IDEALIZADORES DO PROJETO
 URL DO PROJETO
 	http://scriptlattes.sourceforge.net/
 
+ADAPTAÇÕES DO PROJETO
+	Talita Meirelles
 
 =========================================================================================
 LOG
+
 Dom Ago 12 08:12:39 BRT 2012
 -- A classe parserLattes foi adaptada para suportar o novo formato HTML dos CVs
    Lattes.
